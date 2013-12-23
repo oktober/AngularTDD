@@ -18,12 +18,14 @@ describe('fromScratch controllers', function() {
         });
     }));
 
-    describe('TestController', function(){
-
-        it('should list 2 users', function() {
-            expect($scope.users.length).toBe(2);
-        });
+    it('should list 2 users', function() {
+        expect($scope.users.length).toBe(2);
     });
+
+    it('should change the first user name to Katie', function(){
+        $scope.changeFirstUsersFirstName();
+        expect($scope.users[0].firstName).toBe('Katie');
+    })
 
     /*describe('test changeFirstUsersFirstName function', function(){
         it('should change the first users name', inject(function($controller){
