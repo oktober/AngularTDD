@@ -7,8 +7,9 @@
 </head>
 <body>
 <div ng-controller="TestController">
-    <div full-name></div>
-    <div></div>
+    <div ng-repeat="user in users | filter:user">
+        {{user.firstName}} {{user.lastName}} - Age: {{user.age}}
+    </div>
 </div>
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
