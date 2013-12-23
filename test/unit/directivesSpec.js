@@ -2,7 +2,7 @@
 
 /* jasmine specs for directives go here */
 
-describe('Testing fullName directive', function() {
+/*describe('Testing fullName directive', function() {
     var scope,
         elem,
         directive,
@@ -51,4 +51,4 @@ describe('Testing fullName directive', function() {
         //if(console.log("Hey! It's working!"))
         //expect($log.log).toBe("Hey! It's working!");
     });
-});
+});*/

@@ -10,6 +10,9 @@ scratch.controller('TestController',
                [
                    {firstName: 'Jane', lastName: 'Doe', age: 29},
                    {firstName: 'John', lastName: 'Doe', age: 32}
-               ]
+               ];
+        $scope.changeFirstUsersFirstName = function(){
+            $scope.users[0].firstName = 'Katie';
+        }
     }
 );

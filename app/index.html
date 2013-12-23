@@ -10,6 +10,8 @@
     <div ng-repeat="user in users | filter:user">
         {{user.firstName}} {{user.lastName}} - Age: {{user.age}}
     </div>
+    <!--<input type="text" value="{{user1Value}}" />-->
+    <button ng-click="changeFirstUsersFirstName()">Change Name</button>
 </div>
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
