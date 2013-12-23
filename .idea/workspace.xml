@@ -4,14 +4,12 @@
     <list default="true" id="de417201-e8c9-428c-93bb-a68758165255" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/../angular-seed/app/data/1.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular-seed/app/js/controllers.js" afterPath="$PROJECT_DIR$/../angular-seed/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/controllersSpec.js" afterPath="$PROJECT_DIR$/test/unit/controllersSpec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular-seed/app/js/directives.js" afterPath="$PROJECT_DIR$/../angular-seed/app/js/directives.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular-seed/app/partials/home.html" afterPath="$PROJECT_DIR$/../angular-seed/app/partials/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular-seed/app/index.html" afterPath="$PROJECT_DIR$/../angular-seed/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular-seed/app/partials/quiz.html" afterPath="$PROJECT_DIR$/../angular-seed/app/partials/quiz.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular-seed/app/data/words.json" afterPath="$PROJECT_DIR$/../angular-seed/app/data/words.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular-seed/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../angular-seed/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="from_scratch.iws" />
     <ignored path=".idea/workspace.xml" />
