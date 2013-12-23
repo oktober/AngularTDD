@@ -1,24 +1,14 @@
 /**
- * @license AngularJS v1.2.0-rc.3
+ * @license AngularJS v1.0.6
  * (c) 2010-2012 Google, Inc. http://angularjs.org
  * License: MIT
  */
-(function(window, angular, undefined) {'use strict';
+(function(window, angular, undefined) {
+'use strict';
 
 /**
  * @ngdoc overview
  * @name ngCookies
- * @description
- *
- * # ngCookies
- *
- * Provides the {@link ngCookies.$cookies `$cookies`} and
- * {@link ngCookies.$cookieStore `$cookieStore`} services.
- *
- * {@installModule cookies}
- *
- * See {@link ngCookies.$cookies `$cookies`} and
- * {@link ngCookies.$cookieStore `$cookieStore`} for usage.
  */
 
 
@@ -33,8 +23,6 @@ angular.module('ngCookies', ['ng']).
    *
    * Only a simple Object is exposed and by adding or removing properties to/from
    * this object, new cookies are created/deleted at the end of current $eval.
-   *
-   * Requires the {@link ngCookies `ngCookies`} module to be installed.
    *
    * @example
    <doc:example>
@@ -140,9 +128,6 @@ angular.module('ngCookies', ['ng']).
    * Provides a key-value (string-object) storage, that is backed by session cookies.
    * Objects put or retrieved from this storage are automatically serialized or
    * deserialized by angular's toJson/fromJson.
-   *
-   * Requires the {@link ngCookies `ngCookies`} module to be installed.
-   *
    * @example
    */
    factory('$cookieStore', ['$cookies', function($cookies) {
@@ -160,8 +145,7 @@ angular.module('ngCookies', ['ng']).
          * @returns {Object} Deserialized cookie value.
          */
         get: function(key) {
-          var value = $cookies[key];
-          return value ? angular.fromJson(value) : value;
+          return angular.fromJson($cookies[key]);
         },
 
         /**

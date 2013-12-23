@@ -1,8 +1,8 @@
-module.exports = function(config){
-    config.set({
-    basePath : '../',
+module.exports = function (config) {
+  config.set({
+    basePath: '../',
 
-    files : [
+    files: [
       'app/lib/angular/angular.js',
       'app/lib/angular/angular-*.js',
       'test/lib/angular/angular-mocks.js',
@@ -10,22 +10,15 @@ module.exports = function(config){
       'test/unit/**/*.js'
     ],
 
-    autoWatch : true,
-
     frameworks: ['jasmine'],
 
-    browsers : ['Chrome'],
+    autoWatch: true,
 
-    plugins : [
-            'karma-junit-reporter',
-            'karma-chrome-launcher',
-            'karma-firefox-launcher',
-            'karma-jasmine'       
-            ],
+    browsers: ['Chrome'],
 
-    junitReporter : {
+    junitReporter: {
       outputFile: 'test_out/unit.xml',
       suite: 'unit'
     }
-
-})}
+  });
+};
